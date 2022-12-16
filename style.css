@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color:wheat
+    background-color:rgb(0, 0, 0)
 }
 
 .navigation-menu {
@@ -19,9 +19,17 @@ body {
     padding-top: 8px;
 }
 
+p {
+    color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+color: #fff;
+}
+
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(8, 8, 8);
 }
 
 ul {
@@ -37,6 +45,10 @@ margin-top: 0px;
 letter-spacing: 3px;
 }
 
+.container-news {
+    margin: 100px 0 0 150px;
+}
+
 .newsletters {
     border-bottom: 1px solid yellow;
     letter-spacing: normal;
@@ -46,6 +58,8 @@ letter-spacing: 3px;
     margin-top: 100px;
     text-align: center;
     color: #fff;
+    font-size: 50px;
+    letter-spacing: 3px;
 }
 
 .general-paragraph {
@@ -71,6 +85,29 @@ letter-spacing: 3px;
     color: #fff;
 }
 
-h1 {
-    font-size: 50px;
+.secondary-heading {
+    color: #fff;
+    font-size: 32px;
+    letter-spacing: 3px;
+    display: flex;
+    padding-left: 25px;
+}
+
+.secondary-line {
+    width: 5px;
+    height: 20px;
+    background-color: #fc0;
+    box-sizing: border-box;
+    margin: 0 0 0 10px;
+    display: flex;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-top: 8px;
+}    
+.today-picks {
+    display: flex;
+}
+
+.seemore {
+    color: #fff;
 }
