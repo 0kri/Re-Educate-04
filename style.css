@@ -13,6 +13,7 @@ body {
     background-color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .navigation-image {
@@ -43,6 +44,17 @@ list-style: none;
 margin: 15px;
 margin-top: 0px;
 letter-spacing: 3px;
+text-align: center;
+}
+
+.subscribe {
+    background-color: black;
+    box-sizing: border-box;
+    padding-top: 15px;
+}
+
+.nav-subscribe {
+    color:#fff
 }
 
 .container-news {
