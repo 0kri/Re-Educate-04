@@ -124,3 +124,12 @@ text-align: center;
     color: #fff;
     border-bottom: 2px solid #fc0;
 }
+
+.horizontal-lane {
+    border: 0;
+    border-top: 1px solid #333;
+}
+
+.first-copyright, .second-copyright {
+    color:#999;
+}
